@@ -1,44 +1,50 @@
+/*
+shorthand for padding, margin, & border:
+top, right, bottom, left
+*/
+
+/*
+use 'em' instead of px for margin & padding to make size relative to font
+*/
+
+
 
 .nom {
 	text-align: center;
-	font-family: 'Roboto',sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
+	font-size: 1em;
 	color: purple;
 	background-color: black;
-	margin-left: 150px;
-	margin-right: 150px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	margin: 0 4em;
+	padding: .25em .5em;
 }
 
 .hotstuff {
 	font-family: 'Roboto', sans-serif;
-	font-size: 75%;
+	font-size: .7em;
 	font-weight: 100;
 	color: white;
-	margin-left: 150px;
-	margin-right: 150px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
+
+	margin: 0 10em;
+	padding: .5em 1em;
+	
 	background-color: transparent;
 	background-image: url(http://assets.atlasobscura.com/article_images/10827/image);
 	background-position: center; 
+	background-repeat: no-repeat;
 	text-align: center;
 }
 
 .h6 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100; 
+	font-size: .75em;
 	color: white;
-	padding-right: 10px;
-	padding-left: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: .25em 1em;
 	background-color: black;
-	margin-left: 150px;
-	margin-right: 150px;
+	margin:0 5em;
+	text-align: center;
 }
 
 h1, h3 {
