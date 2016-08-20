@@ -21,9 +21,8 @@ use 'em' instead of px for margin & padding to make size relative to font
 }
 
 .hotstuff {
-	font-family: 'Roboto', sans-serif;
-	font-size: .7em;
-	font-weight: 100;
+
+	font: normal, .7em 'Roboto', sans-serif;
 	color: white;
 
 	margin: 0 10em;
@@ -37,9 +36,8 @@ use 'em' instead of px for margin & padding to make size relative to font
 }
 
 .h6 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100; 
-	font-size: .75em;
+
+	font: normal, .75em 'Roboto', sans-serif;
 	color: white;
 	padding: .25em 1em;
 	background-color: black;
@@ -49,10 +47,10 @@ use 'em' instead of px for margin & padding to make size relative to font
 
 h1, h3 {
 	color: white;
-	font-weight: 300;
+	font: bold, 1em 'Roboto', sans-serif;
 }
 
 p {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
+	font: normal, 1em 'Roboto', sans-serif;
+
 }
